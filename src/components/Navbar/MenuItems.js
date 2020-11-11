@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: 'http://localhost:3000/',
+        url: 'https://user-frontends.herokuapp.com/',
         cName: 'nav-links'
     },
     {
