@@ -1,0 +1,45 @@
+
+
+.container{
+    
+    text-align: center;
+      width: 100%;
+      height: 560px;
+      border-radius: 10px;
+      background: aliceblue;
+      padding-top: 3%;
+      
+    }
+    
+    .produto-insert{
+        
+        width: 80%;
+        margin-left: 25%;
+        text-align: left;
+        
+        
+    }
+    
+    .produto-insert input{
+        background: aliceblue;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: dimgray;
+        display: inline-block;
+        width: 60%;
+    }
+    
+    .produto-insert label{
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .btn{
+        
+    }
+    
