@@ -46,9 +46,9 @@ class CriarProduto extends Component {
                         
                         <legend><h2>Criar Produto</h2></legend>
                         <div className="usuario-insert">
-                            <label htmlFor="nome">Nome </label>
+                            <label htmlFor="nome">Produto </label>
                             <br />
-                            <input type="text" id="nome" className="form-group col-md-6" name="nome" placeholder="Nome" minLength="3" maxLength="100" required 
+                            <input type="text" id="nome" className="form-group col-md-6" name="nome" placeholder="Nome do Produto" minLength="3" maxLength="100" required 
                                 value={this.state.produto.nome} 
                                 onChange={this.handleInputChange} 
                             />
@@ -75,7 +75,7 @@ class CriarProduto extends Component {
                         <div className="usuario-insert">
                             <label htmlFor="telefone">Estoque</label>
                             <br />
-                            <input type="text" name="qtdEstoque" className="form-group col-md-4" maxLength="15" id="qtdEstoque" placeholder="Qtd Estoque" required
+                            <input type="text" name="qtdEstoque" className="form-group col-md-4" maxLength="15" id="qtdEstoque" placeholder="Quantidade Estoque" required
                                 value={this.state.produto.qtdEstoque}
                                 onChange={this.handleInputChange}
                             />
