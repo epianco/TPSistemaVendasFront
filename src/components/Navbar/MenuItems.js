@@ -20,8 +20,8 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Contatos',
-        url: '#',
+        title: 'Home',
+        url: 'https://user-frontends.herokuapp.com/',
         cName: 'nav-links-mobile'
     },
 ]
